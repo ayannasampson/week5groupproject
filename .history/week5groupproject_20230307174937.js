@@ -27,12 +27,6 @@ list.addEventListener('click', function(ev) {
   }
 }, false);
 
-
-var span= document.getElementById("myspan");
-span.addEventListener("click",newElement)
-
-
-
 // Create a new list item when clicking on the "Add" button
 function newElement() {
   var li = document.createElement("li");
